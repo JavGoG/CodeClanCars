@@ -1,4 +1,5 @@
-package carComponents;
+import carComponents.Tyres;
+import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,11 +11,11 @@ class TyresTest {
     }
     @org.junit.jupiter.api.Test
     void getSize() {
-        assertEquals(100, tyres.getSize());
+        Assertions.assertEquals(100, tyres.getSize());
     }
     @org.junit.jupiter.api.Test
     void getSeason() {
-        assertEquals("All", tyres.getSeason() );
+        Assertions.assertEquals("All", tyres.getSeason() );
 
     }
 }
